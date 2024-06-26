@@ -45,4 +45,9 @@ If you enjoy this program you can buy me a cup of coffee :)
 - Make sure config.txt is filled out with valid information
 - Make sure config.txt, requirements.txt, and spotempo.py are all in the same directory on your computer
 - Make sure you have https://www.google.com/ saved as the redirect URI in your Spotify app settings
-- Make sure the playlist you would like to sort is in your first 50 playlists. You can rearrange your playlists and/or playlists you follow to make sure they are in your first 50. 
+- Make sure the playlist you would like to sort is in your first 50 playlists. You can rearrange your playlists and/or playlists you follow to make sure they are in your first 50.
+
+# For Python 3.x some changes to spotempo.py need to be made 
+- Enclose all PRINT statements in brackets, e.g. print ("Getting songs and tempos... ")
+- Replace all 'raw_input' with 'input'
+- Change all xrange to range (lines 58, 73, 110)
